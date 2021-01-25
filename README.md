@@ -11,3 +11,22 @@ possibility.
 5. Allele frequency of variant from ExAC API (API documentation is available here:
 http://exac.hms.harvard.edu/).
 6. Any additional annotations that you feel might be relevant.
+
+
+# Usage
+
+python anno.py -i <yourvcffile.vcf>
+
+# Output files
+
+vcf_output.csv
+Chrom: Chromosome
+Pos: Position
+Ref: Reference allele
+Alt: alternate allele
+Variant_Type:Variant type extract from INFO['TYPE']
+Variant_Effect: Variant effect from ExAC 'major_consequence'
+DP: Depth of sequence coverage at the site of variation
+AO: Depth of sequence coverage at the site of variation
+Ratio: Percentage of reads supporting the variant versus those supporting reference reads
+AF_ExAC:Allele frequency of variant from ExAC API
