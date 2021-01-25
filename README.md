@@ -19,14 +19,14 @@ python anno.py -i <yourvcffile.vcf>
 
 # Output files
 
-1. vcf_output.csv
-2. Chrom: Chromosome
-Pos: Position
-Ref: Reference allele
-Alt: alternate allele
-Variant_Type:Variant type extract from INFO['TYPE']
-Variant_Effect: Variant effect from ExAC 'major_consequence'
-DP: Depth of sequence coverage at the site of variation
-AO: Depth of sequence coverage at the site of variation
-Ratio: Percentage of reads supporting the variant versus those supporting reference reads
-AF_ExAC:Allele frequency of variant from ExAC API
+vcf_output.csv
+1. Chrom: Chromosome
+2. Pos: Position
+3. Ref: Reference allele
+4. Alt: alternate allele
+5. Variant_Type:Variant type extract from INFO['TYPE']
+6. Variant_Effect: Variant effect from ExAC 'major_consequence'
+7. DP: Depth of sequence coverage at the site of variation
+8. AO: Depth of sequence coverage at the site of variation
+9. Ratio: Percentage of reads supporting the variant versus those supporting reference reads
+10. AF_ExAC:Allele frequency of variant from ExAC API
