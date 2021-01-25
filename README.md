@@ -28,5 +28,5 @@ vcf_output.csv
 6. Variant_Effect: Variant effect from ExAC 'major_consequence'
 7. DP: Depth of sequence coverage at the site of variation
 8. AO: Depth of sequence coverage at the site of variation
-9. Ratio: Percentage of reads supporting the variant versus those supporting reference reads
+9. Ratio: Percentage of reads supporting the variant versus those supporting reference read, if -1 means either AO or RO has 0 value
 10. AF_ExAC:Allele frequency of variant from ExAC API
