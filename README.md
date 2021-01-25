@@ -19,8 +19,8 @@ python anno.py -i <yourvcffile.vcf>
 
 # Output files
 
-vcf_output.csv
-Chrom: Chromosome
+1. vcf_output.csv
+2. Chrom: Chromosome
 Pos: Position
 Ref: Reference allele
 Alt: alternate allele
